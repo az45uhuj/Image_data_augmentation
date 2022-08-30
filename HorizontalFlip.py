@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 class RandomHorizontalFlip():
-    """Random horizontal flip image and face landmarks"""
+    """Random horizontal flip image with face landmarks"""
     def __init__(self):
         self.p = 0
 
